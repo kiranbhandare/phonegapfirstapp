@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <title>Hello World</title>
+</head>
+
+<body>
+
+
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <h1>Welcome To Truth Finder</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>Please Answer Below Question</p>
+            <p>Do you owe a party to kiran bhandare ?</p>
+            <a href="#pagetwo">YES</a>
+            <a href="#pagethree">NO</a>
+
+            <p>
+               <a href="question.html">Next Question</a>
+            </p>
+        </div>
+
+        <div data-role="footer">
+            <h1>Footer Text</h1>
+        </div>
+    </div>
+
+    <div data-role="page" data-dialog="true" id="pagetwo">
+        <div data-role="header">
+            <h1>Answer :- </h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>Correct Answer.</p>
+        </div>
+
+        <div data-role="footer">
+            <h1>copyright &copy; 2016. Truth Finder</h1>
+        </div>
+    </div>
+
+
+
+    <div data-role="page" data-dialog="true" id="pagethree">
+        <div data-role="header">
+            <h1>Answer :- </h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>Answer is wrong. Please give correct answer otherwise kutrya wani marnyat yeyil.</p>
+        </div>
+
+        <div data-role="footer">
+            <h1>copyright &copy; 2016. Truth Finder</h1>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
